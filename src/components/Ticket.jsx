@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function Ticket(props){
   return (
     <div className="color-toggle">
-        <style global jsx>{`
+      <style global jsx>{`
           div .color-toggle{
             background-color: red;
           }
