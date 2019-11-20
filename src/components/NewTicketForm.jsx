@@ -33,7 +33,7 @@ function NewTicketForm(props){
           id='issue'
           placeholder='Describe your issue.'
           ref={(textarea) => {_issue = textarea;}}/>
-        <button type='submit'>Help!</button>
+        <button className='btn btn-warning' type='submit'>Help!</button>
       </form>
     </div>
   );
